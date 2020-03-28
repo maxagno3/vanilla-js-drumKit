@@ -1,0 +1,52 @@
+html {
+    font-size: 10px;
+    background: url(./media/download.jpg) bottom center;
+    background-size: cover;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+    /* border: .4rem solid yellow; */
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    font-size: 1.5rem;
+    color: green;
+    width: 10rem;
+    text-align: center;
+    background: transparent;
+    text-shadow: 0 0 0.5rem red;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: violet;
+    box-shadow: 0 0 1rem violet;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: hotpink;
+}
